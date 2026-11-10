@@ -1,0 +1,88 @@
+<img width="1920" height="1080" alt="ATLAS Backend Banner Transparent" src="https://github.com/user-attachments/assets/23883b15-d35d-427b-93ac-d50e3aa2ea72" />
+
+## Credits
+ 
+- [precared](https://github.com/prescared) For coding a backend
+
+## Proxy
+
+Proxy is a Fortnite backend for all versions of fortnite designed for trickshotters!
+This backend has features such as the following:
+
+### 1. CurveTables
+- CurveTable Toggle
+- CurveTable Editor
+- CurveTable Importer/Presets (if .ini files added to exports, DefaultGame folder)
+
+### 2. Straight Bloom
+- Toggle Straight Bloom (Straight Sniper Bullets)
+
+### 3. Importing/Exporting Data
+- Bulk Importing/Exporting Client Settings, Profiles, CurveTables, Straight Bloom
+
+### 4. Other Features
+- Arena Playlist/Points (22.40 and under)
+- Arena Points Saving (Unfinished)
+- Arena Point Leaderboard with all Profiles
+- Game Configuration (Rufus/Water Stage Editor/Water Storm Toggle)
+- Custom Cosmetic Profiles (Reboot x Retrac, Stellar, Tozo)
+
+If you want to contribute just fork this repository and make a pull request!
+
+> [!TIP]
+> Join the discord server for support and resources like this! https://discord.gg/sRDUuY6sz
+### Feel free to give any suggestions on how to improve Proxy!
+> [!WARNING]
+> We do not accept any liability for the misuse of this program. Epic Games strictly prohibits the presence of cosmetics not bought from the game's official item shop on private servers, as it breaches the End User License Agreement (EULA).
+
+## Quick Start (Windows)
+
+### First Time Setup
+
+1. **Run the setup script** (This will install Bun if needed and install dependencies):
+   ```bat
+   install_packages.bat
+   ```
+
+2. **Start Proxy**:
+   ```bat
+   start.bat
+   ```
+
+That's it! The setup script will guide you through installing Bun if you don't have it already.
+
+### Manual Setup
+
+If you prefer to install manually:
+
+1. **Install Bun** from [bun.sh](https://bun.sh/docs/installation)
+
+2. **Install dependencies**:
+   ```bash
+   bun install
+   ```
+
+3. **Run Proxy**:
+   ```bash
+   bun run src/index.ts
+   ```
+
+### How To Connect To Someone Else's Proxy Server
+
+1. **Install** [Reboot Launcher](https://github.com/Auties00/Reboot-Launcher/releases/latest)
+
+2. **Head over to the Backend tab.**
+- Change the type to :
+   ```bash
+   Remote
+   ```
+- Enter your Friend's [Radmin VPN](https://www.radmin-vpn.com/) IP in the **Host** box.
+- Change the port to **3551** (if they haven't manually changed the port)
+
+3. **Test it by pressing** ***Start Backend***.
+- If it replies **"The backend was started correctly"**, then it worked! You're free to launch Fortnite.
+- If it replies **"Cannot ping the remote backend"**, then it didn't work; You either have the wrong IP or port.
+
+## To-Do List
+- Arena for Latest Versions
+- Fix applying MCP for Latest Versions
